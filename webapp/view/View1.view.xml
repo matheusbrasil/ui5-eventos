@@ -1,0 +1,16 @@
+<mvc:View controllerName="ovly.eventos.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<Button id="ligarNota" text="Attach" press="ligaDarNota"/>
+						<Button id="desligarNota" enabled="false" text="Detach" press="desligaDarNota"/>
+						<!--<RatingIndicator change="darNota"/> -->
+						<RatingIndicator id="rating"/>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
